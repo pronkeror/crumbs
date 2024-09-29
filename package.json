@@ -1,0 +1,36 @@
+{
+  "name": "crumbs-economy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cookie": "^10.0.1",
+    "@fastify/session": "^11.0.1",
+    "@google/generative-ai": "^0.19.0",
+    "axios": "^1.7.7",
+    "crypto": "^1.0.1",
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "fastify-session": "^5.2.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "node-fetch": "^2.7.0",
+    "npm-force-resolutions": "^0.0.10",
+    "qs": "^6.13.0",
+    "unb-api": "^1.4.0"
+  },
+  "resolutions": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1"
+  }
+}

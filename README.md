@@ -1,0 +1,1 @@
+Economy Add-on bot for the server
